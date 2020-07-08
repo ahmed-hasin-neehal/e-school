@@ -1,0 +1,150 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #F0FFF0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+}
+header img{
+    justify-content: center;
+}
+section{
+    padding-top: 40px;
+}
+.container{
+    padding-bottom: 25px;
+}
+.buttons{
+    background-color: #21B573;
+    color: white;
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+}
+.items li{
+    padding-left: 10px;
+}
+#orange-font{
+    color: #FD511A;
+}
+#captions{
+    color: gray;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-weight: bold;
+}
+.card-text{
+    color: gray;
+}
+.box .card{
+    text-align: center;
+    background-color: #F8FFFB;
+    box-shadow: 0px 20px 40px whitesmoke;
+    
+}
+.box .card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.box .card-img-top{
+    width: 70px;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+}
+.box .card-deck {
+    text-align: center;
+    padding: 40px;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 0px;
+}
+.courses .card{
+    background-color: white;
+    text-align: left;
+    box-shadow: 0px 5px 40px gray;
+    padding: 20px 25px;
+}
+.courses img{
+    padding: 15px;
+}
+
+.inleft {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.inleft .img-fluid {
+    display: inline;
+    margin:auto
+}
+.inleft p {
+    padding: 0 30px;
+    display: inline;
+    font-family: Poppins;
+    font-style: normal;
+    color: #585859;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    position: absolute;
+}
+.inleft img{
+    height: 24px;
+    width: 24px;
+}
+.inleft .icon p {
+    margin: 0;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    width: 75%;
+}
+.card-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.testimonial-body img{
+    width: 120px;
+    height: 120px;
+    margin-right:40px;
+    
+}
+.testimonial-body{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+footer{
+    background-color: #282531;
+    color: white;
+    padding-top: 45px;
+    line-height: 30px;
+}
+footer li{
+    list-style: none;
+    font-style: normal;
+}
+footer a{
+    color: white;
+    font-size: 16px;
+}
+footer h6{
+    text-align: center;
+    color: #CDCDCD;
+    padding-top: 55px;
+    font-size: 16px;
+}
