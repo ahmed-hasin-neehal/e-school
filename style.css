@@ -9,6 +9,7 @@ header{
 }
 header img{
     justify-content: center;
+    width: 100%;
 }
 section{
     padding-top: 40px;
@@ -147,4 +148,12 @@ footer h6{
     color: #CDCDCD;
     padding-top: 55px;
     font-size: 16px;
+}
+.forms{
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 10px;
+}
+.extra{
+    padding-bottom: 60px;
 }

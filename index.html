@@ -22,16 +22,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto items">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Books<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#books">Books<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#course">Courses</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Others</a>
+              <a class="nav-link" href="#others">Others</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item active">
               <button class="buttons" style="padding: 12px 28px;">Sign in</button>
@@ -56,7 +56,7 @@
     </div>
   </header>
   
-  <section>
+  <section id="#books">
     <div class="container box">
       <div class="row">
         <div class="col-md-3">
@@ -98,7 +98,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section id="course">
     <div class="container courses">
       <h2>Online Courses</h2>
       <div class="row">
@@ -170,8 +170,8 @@
         </div>
     </div>
   </section>
-    
-  <section >
+
+  <section id="blog">
     <div class="container">
       <h2>Testimonial</h2>
       <div class="container d-flex justify-content-center testimonial-body">
@@ -179,6 +179,37 @@
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
     </div>
     </div>
+  </section>
+
+  <section class="extra" id="others">
+    <div class="container forms">
+      <h2>Join E-School</h2>
+      <form>
+        <div class="form-group">
+          <label for="inputName">Name</label>
+          <input type="text" class="form-control" id="inputName">
+        </div>
+        <div class="form-group">
+          <label for="inputNumber">Phone</label>
+          <input type="tel" class="form-control" id="inputNumber">
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">Email address</label>
+          <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">I accept the <a href="#">terms and conditions</a></label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    
   </section>
 
   <footer>
