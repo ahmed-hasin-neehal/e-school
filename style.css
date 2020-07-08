@@ -76,7 +76,7 @@ h2{
     box-shadow: 0px 5px 40px gray;
     padding: 20px 25px;
 }
-.courses img{
+.courses .card-img-top{
     padding: 15px;
 }
 
@@ -87,7 +87,7 @@ h2{
 }
 .inleft .img-fluid {
     display: inline;
-    margin:auto
+    margin:auto;
 }
 .inleft p {
     padding: 0 30px;
