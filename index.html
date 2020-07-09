@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="green-bg">
+  <header>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <a class="navbar-brand" href="#">
@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto items">
             <li class="nav-item active">
-              <a class="nav-link" href="#books">Books<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#books">Books</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#course">Courses</a>
@@ -50,13 +50,13 @@
           <button class="buttons" style="padding: 12px 36px;">Get Started</button>
         </div>
         <div class="col-md-6">
-          <img src="images/Illustration.png" alt="" style="width: 554px; height: 346px;">
+          <img class="d-block w-100 header-img" src="images/Illustration.png" alt="">
         </div>
       </div>      
     </div>
   </header>
   
-  <section id="#books">
+  <section id="books">
     <div class="container box">
       <div class="row">
         <div class="col-md-3">
@@ -102,72 +102,76 @@
     <div class="container courses">
       <h2>Online Courses</h2>
       <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="images/Morder pyschology.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Modern Psychology</h5>
-              <p class="card-text">Designation</p>
-              <button class="buttons" style="padding: 8px 28px;">Buy Course</button>
+        <div class="card-deck">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/Morder pyschology.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="buttons" style="padding: 8px 28px;">Buy Course</button>
+              </div>
+              <div class="card-footer">
+                <div class="card-icon">
+                    <div class="inleft">
+                      <img src="ICON/calendar.png" alt="" class="img-fluid">
+                      <p>Start 20 April, 2021</p>
+                    </div>
+                    <div class="inleft">
+                      <img src="ICON/people.png" alt="" class="img-fluid">
+                      <p>60 seats</p>
+                    </div>
+                  </div>
+              </div>
             </div>
-            <div class="card-footer">
-              <div class="card-icon">
-                  <div class="inleft">
-                    <img src="ICON/calendar.png" alt="" class="img-fluid">
-                    <p>Start 20 April, 2021</p>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/Morder psyc.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="buttons" style="padding: 8px 28px;">Buy Course</button>
+              </div>  
+              <div class="card-footer">
+                <div class="card-icon">
+                    <div class="inleft">
+                      <img src="ICON/calendar.png" alt="" class="img-fluid">
+                      <p>Start 20 April, 2021</p>
+                    </div>
+                    <div class="inleft">
+                      <img src="ICON/people.png" alt="" class="img-fluid">
+                      <p>60 seats</p>
+                    </div>
                   </div>
-                  <div class="inleft">
-                    <img src="ICON/people.png" alt="" class="img-fluid">
-                    <p>60 seats</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/Morder pychons.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="buttons" style="padding: 8px 28px;">Buy Course</button>
+              </div>
+              <div class="card-footer">
+                <div class="card-icon">
+                    <div class="inleft">
+                      <img src="ICON/calendar.png" alt="" class="img-fluid">
+                      <p>Start 20 April, 2021</p>
+                    </div>
+                    <div class="inleft">
+                      <img src="ICON/people.png" alt="" class="img-fluid">
+                      <p>60 seats</p>
+                    </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="images/Morder psyc.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Modern Psychology</h5>
-              <p class="card-text">Designation</p>
-              <button class="buttons" style="padding: 8px 28px;">Buy Course</button>
-            </div>  
-            <div class="card-footer">
-              <div class="card-icon">
-                  <div class="inleft">
-                    <img src="ICON/calendar.png" alt="" class="img-fluid">
-                    <p>Start 20 April, 2021</p>
-                  </div>
-                  <div class="inleft">
-                    <img src="ICON/people.png" alt="" class="img-fluid">
-                    <p>60 seats</p>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="images/Morder pychons.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Modern Psychology</h5>
-              <p class="card-text">Designation</p>
-              <button class="buttons" style="padding: 8px 28px;">Buy Course</button>
-            </div>
-            <div class="card-footer">
-              <div class="card-icon">
-                  <div class="inleft">
-                    <img src="ICON/calendar.png" alt="" class="img-fluid">
-                    <p>Start 20 April, 2021</p>
-                  </div>
-                  <div class="inleft">
-                    <img src="ICON/people.png" alt="" class="img-fluid">
-                    <p>60 seats</p>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
+        
+      </div>
     </div>
   </section>
 
@@ -177,7 +181,7 @@
       <div class="container d-flex justify-content-center testimonial-body">
         <img src="images/Man.png" alt="">
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-    </div>
+      </div>
     </div>
   </section>
 
@@ -203,10 +207,10 @@
           <input type="password" class="form-control" id="inputPassword">
         </div>
         <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">I accept the <a href="#">terms and conditions</a></label>
+          <input type="checkbox" class="form-check-input" id="check">
+          <label class="form-check-label" for="check">I accept the <a href="#">terms and conditions</a></label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="buttons" style="padding: 12px 24px;">Submit</button>
       </form>
     </div>
     
